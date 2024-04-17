@@ -1,0 +1,29 @@
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+h1, h2 {
+    margin: 10px 0;
+}
+
+#form {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+#form input, #form button {
+    margin-right: 10px;
+}
+
+#expense-list {
+    list-style: none;
+    padding: 0;
+}
+
+#expense-list li {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
